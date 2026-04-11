@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.br0ski777/screenshot-pdf",
+  "name": "io.github.Br0ski777/screenshot-pdf",
   "title": "Screenshot & PDF Capture API",
   "description": "Capture screenshots and generate PDFs from any URL. PNG/JPEG/WebP. x402 micropayments.",
   "version": "1.0.0",
