@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.br0ski777/screenshot-pdf",
+  "title": "Screenshot & PDF Capture API",
+  "description": "Capture website screenshots and generate PDFs programmatically. Full page capture, custom viewport (width/height), multiple formats (PNG/JPEG/WebP), and PDF generation (A4/Letter/Legal/Tabloid). Powered by Puppeteer. Use when you need to take a screenshot of a URL, convert a web page to PDF, generate preview thumbnails, or archive pages visually.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/Br0ski777/screenshot-pdf-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/screenshot-pdf-x402",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@br0ski777/screenshot-pdf-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
