@@ -32,6 +32,10 @@ Do NOT use for text extraction -- use web_scrape_to_markdown instead. Do NOT use
         },
         required: ["url"],
       },
+      outputSchema: {
+        type: "string",
+        description: "Binary image data (PNG, JPEG, or WebP) returned with appropriate Content-Type header. Typical size 200-800KB.",
+      },
     },
     {
       method: "GET",
@@ -55,6 +59,10 @@ Do NOT use for custom documents from HTML/Markdown -- use document_generate_pdf 
           format: { type: "string", enum: ["A4", "Letter", "Legal", "Tabloid"], description: "Paper format (default: A4)" },
         },
         required: ["url"],
+      },
+      outputSchema: {
+        type: "string",
+        description: "Binary PDF document returned with Content-Type application/pdf. Properly paginated with print-optimized layout.",
       },
     },
   ],
