@@ -9,14 +9,15 @@
     "mcp": "bun run src/mcp.ts"
   },
   "dependencies": {
-    "hono": "^4.7.0",
-    "@x402/hono": "^2.9.0",
-    "@x402/extensions": "^2.9.0",
+    "@coinbase/x402": "^2.1.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
     "@x402/core": "^2.9.0",
     "@x402/evm": "^2.9.0",
-    "@modelcontextprotocol/sdk": "^1.12.0",
-    "puppeteer": "^23.0.0",
-    "jose": "^6.2.0"
+    "@x402/extensions": "^2.9.0",
+    "@x402/hono": "^2.9.0",
+    "hono": "^4.7.0",
+    "jose": "^6.2.0",
+    "puppeteer": "^23.0.0"
   },
   "devDependencies": {
     "bun-types": "latest",
