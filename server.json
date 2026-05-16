@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://screenshot-pdf-x402-production.up.railway.app/mcp"
+      "url": "https://screenshot-pdf.api.klymax402.com/mcp"
     }
   ]
 }
