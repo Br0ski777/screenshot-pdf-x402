@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "GET",
       path: "/api/screenshot",
-      price: "$0.008",
+      price: "$0.015",
       description: "Capture a screenshot of any URL",
       toolName: "capture_screenshot",
       toolDescription: `Use this when you need a visual capture of a web page. Renders in a real Chromium browser and returns an image.
@@ -40,7 +40,7 @@ Do NOT use for text extraction -- use web_scrape_to_markdown instead. Do NOT use
     {
       method: "POST",
       path: "/api/screenshot",
-      price: "$0.008",
+      price: "$0.015",
       description: "Capture a screenshot of any URL (POST variant)",
       toolName: "capture_screenshot",
       toolDescription: `Use this when you need a visual capture of a web page. Renders in a real Chromium browser and returns an image. POST variant of capture_screenshot -- same params passed as JSON body instead of query string.
@@ -71,7 +71,7 @@ Do NOT use for text extraction -- use web_scrape_to_markdown instead. Do NOT use
     {
       method: "GET",
       path: "/api/pdf",
-      price: "$0.01",
+      price: "$0.02",
       description: "Generate a PDF from any URL",
       toolName: "webpage_to_pdf",
       toolDescription: `Use this when you need to convert a live web page to a printable PDF document. Renders in a real Chromium browser and returns binary PDF.
@@ -99,7 +99,7 @@ Do NOT use for custom documents from HTML/Markdown -- use document_generate_pdf 
     {
       method: "POST",
       path: "/api/pdf",
-      price: "$0.01",
+      price: "$0.02",
       description: "Generate a PDF from any URL (POST variant)",
       toolName: "webpage_to_pdf",
       toolDescription: `Use this when you need to convert a live web page to a printable PDF document. Renders in a real Chromium browser and returns binary PDF. POST variant of webpage_to_pdf -- same params passed as JSON body instead of query string.
